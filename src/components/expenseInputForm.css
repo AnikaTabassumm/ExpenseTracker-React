@@ -1,0 +1,33 @@
+form {
+  width: 300px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8%;
+}
+
+label {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.815);
+  font-size: large;
+}
+
+input {
+  padding: 15px;
+  border: whitesmoke;
+  border-radius: 5px;
+}
+
+.container {
+  background-color: rgba(214, 227, 226, 0.897);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: fit-content;
+  padding: 60px;
+}
+
+.fieldAdd {
+  text-align: center;
+}

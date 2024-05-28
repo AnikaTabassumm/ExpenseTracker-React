@@ -1,0 +1,31 @@
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4% 6%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.expenseView {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.filterAndSearch {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 2%;
+  }
+}

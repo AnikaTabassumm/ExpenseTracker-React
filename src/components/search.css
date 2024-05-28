@@ -1,0 +1,33 @@
+.searchableSelect {
+  position: relative;
+  width: 200px;
+}
+
+.searchableSelect input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.searchableSelect .options {
+  position: absolute;
+  width: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  background-color: white;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.searchableSelect .options li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.searchableSelect .options li:hover {
+  background-color: #f2f2f2;
+}
